@@ -41,7 +41,7 @@ func main() {
 	process1 := ProcessConfig{
 		Name:   "process_A",
 		Dir:    "./process_A",
-		Target: ".",
+		Target: "process_A.go",
 	}
 
 	process2 := ProcessConfig{
