@@ -57,7 +57,7 @@ func main() {
 
 	// Let them run for N seconds
 	runDuration := 120 * time.Second
-	log.Printf("⏳ Sleeping for %v before killing processes...", runDuration)
+	log.Printf(" Sleeping for %v before killing processes...", runDuration)
 	time.Sleep(runDuration)
 
 	// Kill both if still running
