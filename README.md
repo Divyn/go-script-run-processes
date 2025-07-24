@@ -11,6 +11,6 @@ This script will:
 
 - Launch both processes.
 
-- Run them for 120 seconds.
+- Run them for X seconds.
 
 - End both if still running.
